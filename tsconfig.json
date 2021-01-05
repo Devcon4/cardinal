@@ -4,13 +4,14 @@
     "emitDecoratorMetadata": true,
     "baseUrl": ".",
     "resolveJsonModule": true,
-    "target": "es5",
+    "target": "ESNext",
     "module": "commonjs",
     "declaration": true,
     "outDir": "lib",
     "strict": false,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
+    "lib": ["ESNext"]
   },
   "include": [
     "src/**/*"
